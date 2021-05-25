@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "open sans", Arial, Helvetica, sans-serif, "lucida grande";
+    margin: 0;
+}
+
+header {
+    padding: 20px;
+    background: rgb(2,0,36);
+    background: linear-gradient(218deg, rgba(2,0,36,1) 0%, rgba(24,90,219,1) 33%, rgba(0,212,255,1) 100%);
+}
+
+.menu {
+    height: 50px;
+    border: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu .icon {
+    display: none;
+}
+
+.menu a {
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.menu a:hover {
+    font-weight: normal;
+    color: black;
+}
+
+.main-header {
+    color: rgb(255, 255, 255);
+    height: 250px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+main {
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+.content {
+    width: 100%;
+}
+
+.content h3 {
+    text-align: center;
+}
+
+.content p {
+    text-align: center;
+}
+
+.box-parent {
+    display: flex;
+    flex-direction: row;
+}
+
+.box-child {
+    padding: 2px;
+    flex: 1;
+    border: 2px solid #185adb;
+    border-radius: 5px;
+    margin: 0px 5px;
+    height: 250px;
+    transition: box-shadow .3s;
+    box-shadow: 0 4px 8px 0 rgba(121, 161, 236, 0.3), 0 6px 20px 0 rgba(121, 161, 236, 0.3);;
+}
+
+.box-child:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8);;
+}
+
+.box-child img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+aside  {
+    margin: 0 auto;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+
+aside p {
+    font-style: italic;
+}
+
+footer {
+    padding: 50px;
+    text-align: center;
+}
+
+
+.ignielToTop {text-decoration: none; color: white; text-align: center; padding-top: 15px; width:50px; height:50px; position:fixed; bottom:50px; right: 50px; z-index:99; cursor:pointer; border-radius: 5px; transition:all .5s; background:#185adb no-repeat center center;}
+
+.ignielToTop:hover {background:#5485e7 no-repeat center center;}
